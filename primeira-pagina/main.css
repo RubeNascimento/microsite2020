@@ -1,0 +1,83 @@
+html {
+  font-weight: 600;
+}
+
+body {
+  padding: 100px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  width: 1440px;
+  width: auto;
+}
+
+.barra {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+.header {
+  font-size: 3rem;
+}
+
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+}
+
+.botoes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+h1 {
+  padding-top: 150px;
+  padding-right: 65%;
+}
+
+.textobotao {
+  font-size: 20px;
+  padding-top: 10px;
+  padding-right: 65%;
+}
+
+.getstarted {
+  font-family: "Open Sans", sans-serif;
+  height: 40px;
+  width: 180px;
+  background-color: #3065f8;
+  border-color: #3065f8;
+  color: #f6f6fe;
+  border-radius: 0.2em;
+  font-size: 13px;
+  border-style: unset;
+}
+/*# sourceMappingURL=main.css.map */
