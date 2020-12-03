@@ -138,4 +138,10 @@ body {
 .seehow:hover {
   text-decoration: none;
 }
+
+.quotebox {
+  width: 500px;
+  height: 200px;
+  background-color: pink;
+}
 /*# sourceMappingURL=main.css.map */
