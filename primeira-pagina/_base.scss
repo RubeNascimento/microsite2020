@@ -15,22 +15,20 @@ html {
 }
 
 body {
-    padding-top: 50px;
-    padding-left: 100px;
     font-family: $font-body;
     font-weight: 400;
     width: 1440px;
     width: auto;
-    background-image: url('/primeira-pagina/images/illustration-1.svg');
-    background-size: 800px;
+    background-image: url('/primeira-pagina/images/illustration-1.svg'), url(/primeira-pagina/images/illustration-2.svg), url(/primeira-pagina/images/bg-curve-desktop.svg);
+    background-size: 800px, 650px, cover;
     background-repeat: no-repeat;
-    background-position-x: 1000px;
-    background-position-y: 200px;
+    background-clip: inherit;
+    background-position-x: 1000px, 1000px, center;
+    background-position-y: 200px, 1200px, 970px;
 }
 
-.barra {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
+.paddingbody {
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-bottom: 100px;
 }
