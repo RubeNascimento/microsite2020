@@ -125,7 +125,7 @@
     font-size: 12px;
 }
 
-.earlyaccessbox {
+.barraroxa {
     height: 300px;
     background-color: $color-primary-desaturated;
     padding-left: 100px;
@@ -135,8 +135,36 @@
     font-family: $font-headings;
     font-weight: bolder;
     color: $color-neutral-white;
+    font-size: 32px;
 }
 
 .earlyaccessparagrafo {
-    padding-right: 72%;
+    padding-right: 850px;
+    font-family: $font-body;
+    color: $color-neutral-white;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+input {
+    font-family: $font-body;
+    font-size: 8px;
+    letter-spacing: 1px;
+}
+
+.inputebotao {
+    padding-right: 100px;
+}
+
+.getstartedforfree {
+    font-family: $font-body;
+    height: 40px;
+    width: 180px;
+    background-color: $color-accent-blue;
+    border-color: $color-accent-blue;
+    color: $color-neutral-white;
+    border-radius: 0.2em;
+    font-size: 13px;
+    border-style: unset;
+    box-shadow: 1px 1px 5px rgb(83, 83, 83);
 }

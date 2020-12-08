@@ -150,7 +150,7 @@ body {
   font-size: 12px;
 }
 
-.earlyaccessbox {
+.barraroxa {
   height: 300px;
   background-color: #585989;
   padding-left: 100px;
@@ -160,9 +160,38 @@ body {
   font-family: "Raleway", sans-serif;
   font-weight: bolder;
   color: #f6f6fe;
+  font-size: 32px;
 }
 
 .earlyaccessparagrafo {
-  padding-right: 72%;
+  padding-right: 850px;
+  font-family: "Open Sans", sans-serif;
+  color: #f6f6fe;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+input {
+  font-family: "Open Sans", sans-serif;
+  font-size: 8px;
+  letter-spacing: 1px;
+}
+
+.inputebotao {
+  padding-right: 100px;
+}
+
+.getstartedforfree {
+  font-family: "Open Sans", sans-serif;
+  height: 40px;
+  width: 180px;
+  background-color: #3065f8;
+  border-color: #3065f8;
+  color: #f6f6fe;
+  border-radius: 0.2em;
+  font-size: 13px;
+  border-style: unset;
+  -webkit-box-shadow: 1px 1px 5px #535353;
+          box-shadow: 1px 1px 5px #535353;
 }
 /*# sourceMappingURL=main.css.map */
