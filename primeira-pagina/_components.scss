@@ -133,3 +133,33 @@
     border: 1px solid;
     padding: 5px;
 }
+
+@media only screen and (max-width: 500px) {
+    .textobotao{
+        padding-right: 0;
+        text-align: center;
+    }
+    .form-inline {
+        justify-content: center;
+    }
+    .getstarted {
+        width: 295px;
+    }
+    .texto1p2 {
+        padding-right: 0;
+    }
+    .texto2p2 {
+        padding-right: 0;
+    }
+    .earlyaccess {
+        font-size: 25px;
+        padding: 0;
+    }
+    .earlyaccessparagrafo {
+        font-size: 10px;
+        padding: 0
+    }
+    .inputebotao {
+        padding: 0;
+    }
+}

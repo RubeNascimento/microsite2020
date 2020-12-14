@@ -57,3 +57,18 @@ input {
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
+
+@media only screen and (max-width: 500px) {
+    .h1style {
+        padding-top: 450px;
+        padding-right: 0;
+        display: flex;
+        text-align: center;
+    }
+    .barraroxa {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        justify-content: center;
+    }
+}
